@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 状态栏-->
+    <color name="colorPrimaryDark">#2FA3D6</color>
+    <!-- 控件被选中 -->
+    <color name="colorAccent">#D81B60</color>
+    <!--主体下部导航条颜色-->
+    <color name="mainBottomBar">#CBF1F1</color>
+    <!--主体上方Bar颜色-->
+    <color name="mainTopBar">#2FA3D6</color>
+    <!--hint颜色-->
+    <color name="hint">#a3a3a3</color>
+    <!--顶部导航条被选中-->
+    <color name="itemBarSelected">#0097F7</color>
+    <!--顶部导航条未被选中-->
+    <color name="itemBar">#666666</color>
+    <!--刷新图标颜色-->
+    <color name="ptrHead">#919191</color>
+    <!--发布按钮背景未输入-->
+    <color name="issueBg">#D8D8D8</color>
+    <!--发布背景已输入-->
+    <color name="issueTextBg">#EBEAEA</color>
+    <!--我的资料分隔符-->
+    <color name="myinfoLine">#E4E4E4</color>
+    <!--评论颜色-->
+    <color name="commentColor">#3F3E3E</color>
+    <color name="f6">#f6f6f6</color>
+</resources>

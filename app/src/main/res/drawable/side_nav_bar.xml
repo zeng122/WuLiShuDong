@@ -1,0 +1,12 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- gradient用于设置背景色
+       angle：影响的是渐变的方向，默认的话是从左向右，如果要设置的话设置的值为整数并且要
+              能被45整除。正数是逆时针，负数是顺时针，135从右往左-->
+    <gradient
+        android:angle="135"
+        android:centerColor="#05D1E9"
+        android:endColor="#29CADD"
+        android:startColor="#6AD9EB"
+        android:type="linear" />
+</shape>

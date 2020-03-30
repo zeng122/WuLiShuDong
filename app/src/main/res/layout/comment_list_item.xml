@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/comment_head_pic"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_head"
+            android:layout_marginLeft="15dp">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/comment_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户名"
+            android:textSize="14sp"
+            android:layout_toRightOf="@id/comment_head_pic"
+            android:textColor="@color/commentColor"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="7dp">
+        </TextView>
+        <TextView
+            android:id="@+id/comment_fenge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:layout_toRightOf="@+id/comment_name"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="7dp">
+        </TextView>
+        <TextView
+            android:id="@+id/comment_contend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/comment_fenge"
+            android:text="99999999"
+            android:textSize="15sp"
+            android:textColor="@color/commentColor"
+            android:layout_marginTop="7dp">
+        </TextView>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--标题栏高度为50dp-->
+<RelativeLayout
+    android:id="@+id/main_title_bar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/mainTopBar"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/back_to_page"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/back_icon">
+    </TextView>
+
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="22"
+        android:textSize="20sp"
+        ></TextView>
+    <TextView
+        android:id="@+id/tv_save"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        android:text="保存"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"/>
+</RelativeLayout>

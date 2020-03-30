@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--登录界面-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical">
+    <!--标题栏-->
+    <include layout="@layout/item_title_bar"></include>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/login_logo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp">
+    </ImageView>
+    <!--账户-->
+    <EditText
+        android:id="@+id/login_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/white"
+        android:drawableLeft="@drawable/user_name_icon"
+        android:drawablePadding="10dp"
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:hint="@string/login_user_hint"
+        android:textColorHint="@color/hint">
+    </EditText>
+    <!--密码-->
+    <EditText
+        android:id="@+id/login_user_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/white"
+        android:drawableLeft="@drawable/psw_icon"
+        android:paddingLeft="8dp"
+        android:drawablePadding="10dp"
+        android:inputType="textPassword"
+        android:hint="@string/login_pass_hint"
+        android:textColorHint="@color/hint"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:singleLine="true">
+    </EditText>
+
+    <!--登录-->
+    <Button
+        android:id="@+id/login_bt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/login_selector"
+        android:text="登 录"
+        android:textColor="@android:color/white"
+        android:textSize="18sp">
+    </Button>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/wl_register"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="立即注册"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+        <!--layout_weight="1" layout_width="0dp"实现均分效果-->
+        <TextView
+            android:id="@+id/wl_find_psw"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="找回密码?"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+</LinearLayout >

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name" translatable="false">武理树洞</string>
+    <string name="welcome_word" translatable="false">Your Hole</string>
+    <string name="main_item1" translatable="false">树洞</string>
+    <string name="main_item2" translatable="false">动态</string>
+    <string name="main_item3" translatable="false">我</string>
+    <string name="login_user_hint" translatable="false">请输入用户名</string>
+    <string name="login_pass_hint" translatable="false">请输入密码</string>
+    <string name="confirm_login_pass_hint" translatable="false">请再次输入密码</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="issueBt" translatable="false">发布</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+</resources>
